@@ -4,6 +4,15 @@ Async, fault-tolerant ingestion pipeline for AI research papers, startups,
 products, news, and jobs. Built for the GraphOne / FrontierAtlas AI Engineer
 assessment.
 
+## Engineering snapshot
+
+- **Async ingestion:** fault-tolerant discovery → extraction/enrichment → validation → persistence workflows.
+- **Multiple verticals:** research, news, jobs, startups and products are implemented and documented with live-source verification where available.
+- **Reliability:** retries, worker pools, idempotent persistence, schema validation and explicit failure accounting.
+- **LLM orchestration:** multiple providers with fallback, chunking and handling for oversized requests.
+- **Entity resolution:** normalization, aliases, fuzzy matching and an auditable mapping log.
+- **Testing:** the repository documents **286 passing tests** at the referenced commit.
+
 ## Project status (honest, not aspirational)
 
 This repo is being built in phases (see `docs/DEVELOPMENT_HANDOFF.md` for the
