@@ -168,7 +168,7 @@ docker compose up -d postgres redis
 ## Running tests
 
 ```bash
-pytest                      # unit tests only, no live network required (249 tests)
+pytest                      # unit tests only, no live network required (452 passed, 2 deselected)
 pytest -m integration       # opt-in: hits the real GitHub API (2 tests)
 ```
 
