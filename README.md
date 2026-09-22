@@ -1,5 +1,7 @@
 # GraphOne / FrontierAtlas Intelligence Pipeline
 
+[![CI](https://github.com/rajaryan1111/graphone-intelligence-pipeline/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/rajaryan1111/graphone-intelligence-pipeline/actions/workflows/ci.yml)
+
 Async, fault-tolerant ingestion pipeline for AI research papers, startups,
 products, news, and jobs. Built for the GraphOne / FrontierAtlas AI Engineer
 assessment.
